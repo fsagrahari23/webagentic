@@ -40,8 +40,7 @@ This is a full-stack AI-powered terminal website builder. You describe what kind
 ├── /client # React frontend
 └── /preview # Express server to serve website previews
 
-yaml
-Copy code
+
 
 ---
 
@@ -91,16 +90,14 @@ Those commands are executed using Node.js and child_process.
 Generated files are saved locally and previewed via a second Express server.
 
 📂 Generated Project Example
-bash
-Copy code
+
 /websites/website_1699999999999
   ├── index.html
   ├── style.css
   └── script.js
 View in browser:
 
-bash
-Copy code
+
 http://localhost:5000/website_1699999999999/
 ⚠️ Limitations
 Requires Node.js environment with file system access (not serverless)
@@ -124,14 +121,8 @@ MIT
 ✨ Credits
 Groq API
 
-Built with ❤️ by [Your Name]
+Built with ❤️ by CodeWithMonu
 
-vbnet
-Copy code
 
-Let me know if you want:
-- A version for the MongoDB-based project
-- To publish this on GitHub with badges and deploy instructions
-- A live preview GIF or screenshots to embed in this README
 
-Just say the word!
+
