@@ -1,0 +1,9 @@
+CursorPro/node_modules/
+CursorPro/.env
+# Ignore node_modules directory
+CursorPro/dist/
+Fronetend/node_modules/
+# Ignore dist directory
+Fronetend/dist/
+
+FirstAgent

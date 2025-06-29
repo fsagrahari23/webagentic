@@ -1,0 +1,1 @@
+const reservationForm = document.querySelector('#reservations form');reservationForm.addEventListener('submit', (e) => {e.preventDefault();const name = document.querySelector('#name').value;const date = document.querySelector('#date').value;const time = document.querySelector('#time').value;console.log(`Reservation for ${name} on ${date} at ${time}`);});

@@ -1,0 +1,28 @@
+{
+  "name": "cursorpro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --env-file=.env index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "child-process": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.1",
+    "fs": "^0.0.1-security",
+    "groq-sdk": "^0.26.0",
+    "helmet": "^8.1.0",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "readline-sync": "^1.4.10",
+    "url": "^0.11.4"
+  }
+}
